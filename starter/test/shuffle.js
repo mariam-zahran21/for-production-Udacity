@@ -1,6 +1,5 @@
 import { expect } from "chai";
-import { shuffle } from "../src/Shuffle.js";
-
+import { shuffle } from "../src/shuffle.js";
 describe("Shuffle Function", () => {
   it("should shuffle array indexes", () => {
     const arr = [1, 2, 3, 4, 5];

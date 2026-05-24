@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Study Night - Flashcard learning application",
   "type": "module",
-  "scripts": {
-    "gulp": "gulp",
-    "test": "gulp test"
-  },
+ "scripts": {
+  "gulp": "gulp",
+  "build": "parcel build index.html",
+    "test": "mocha"
+
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
