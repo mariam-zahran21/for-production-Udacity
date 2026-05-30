@@ -57,7 +57,7 @@ const createSetPreviewCard = (set, setContainer) => {
   const setCard = document.createElement("ul");
   setCard.className = "cardSets";
   // Dynamic attribute used to select a study set during testing.
-  setCard.setAttribute("data-cy", set.id);
+  setCard.setAttribute("data-cy", `card-set-${set.id}`);
 
   // Creates the Study Sets Title element
   const liTitle = document.createElement("li");

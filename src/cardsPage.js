@@ -88,10 +88,8 @@ const renderFlashCards = (set, index = 0) => {
     container.append(currentCard, nextAndPrevBtn);
   }
 
-  // Generates from for creating cards
+  // Generates form for creating cards
   const form = renderCardForm(set);
-  // Sets form to be invisible
-  form.className = "notVisible";
 
   // Creates button for toggling the form
   const addCardBtn = createToggleButton("Add New Card", form);
