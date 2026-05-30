@@ -2,9 +2,10 @@
   "name": "production",
   "version": "1.0.0",
   "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "build": "parcel build index.html",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
     "gulp": "^5.0.1",
     "gulp-cli": "^3.1.0",
     "gulp-shell": "^0.8.0",
-    "mocha": "^8.1.3",
+    "mocha": "^11.7.6",
     "parcel": "^2.16.4",
     "prettier": "^3.8.3"
   }
